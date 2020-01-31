@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Medical record</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="nav-logo"></div>
+      <div class="nav-links">
+        <a href="" class="nav-link">Person</a>
+        <a href="" class="nav-link">Appointment</a>
+        <a href="" class="nav-link">Charts</a>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Patience registration modal -->
+  <div class="modal patience-registration">
+
+
+    <h1 class="modal-title">Patience registration</h1>
+
+    <button class="modal-close">x</button>
+
+    <form action="" class="patience">
+
+      <div class="input-wraper">
+        <label for="">ID: </label>
+        <input type="text" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper">
+        <label for="">First name: </label>
+        <input type="text" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper">
+        <label for="">Last name: </label>
+        <input type="text" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper">
+        <label for="">Cellphone 1: </label>
+        <input type="tel" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper">
+        <label for="">Cellphone 2: </label>
+        <input type="tel" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper">
+        <label for="">Email: </label>
+        <input type="email" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper">
+        <label for="">Adress: </label>
+        <input type="text" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="btn-wraper">
+        <button type="button" name="save">Save <span>o</span></button>
+        <button type="button" name="cancel">Cancel <span>o</span></button>
+      </div>
+
+    </form>
+
+  </div>
+
+
+  <div class="modal appointment-registration">
+
+    <h1 class="modal-title">Appointment registration</h1>
+
+
+    <form action="" class="appointment">
+
+      <div class="input-wraper input-inactive">
+        <label for="">ID: </label>
+        <input type="text" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+        <button class="search-btn search-patience">Search</button>
+      </div>
+
+      <div class="input-wraper input-inactive">
+        <label for="">First name: </label>
+        <input type="text" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper input-inactive">
+        <label for="">Last name: </label>
+        <input type="text" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper">
+        <label for="">Date: </label>
+        <input type="date" name="" value="" placeholder="Enter information">
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper input-textarea">
+        <label for="">Description: </label>
+        <textarea class="description-area" name="name" rows="8" cols="80" placeholder="Enter description"></textarea>
+        <span class="underline"></span>
+      </div>
+
+      <div class="input-wraper">
+        <label for="">Sickness code: </label>
+
+
+        <div class="list-selection">
+          <div class="item-search">
+
+            <input type="text" name="" value="" placeholder="Enter information">
+            <button type="button" name="button">V</button>
+
+          </div>
+
+          <div class="items-selected">
+
+            <div class="item-selected">
+              <p>X - Sickness X</p>
+              <button class="item-selected-close-btn"type="button" name="button"></button>
+            </div>
+
+          </div>
+
+          <ul>
+            <li>1 - Sickness 1</li>
+            <li>2 - Sickness 2</li>
+            <li>3 - Sickness 3</li>
+            <li>4 - Sickness 4</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <div class="input-wraper">
+        <label for="">Medicine prescript: </label>
+
+
+        <div class="list-selection">
+          <div class="item-search">
+
+            <input type="text" name="" value="">
+            <button type="button" name="button">V</button>
+
+          </div>
+
+          <div class="items-selected">
+
+            <div class="item-selected">
+              <p>X - Med X</p>
+              <button class="item-selected-close-btn"type="button" name="button"></button>
+            </div>
+
+          </div>
+
+          <ul>
+            <li>1 - Med 1</li>
+            <li>2 - Med 2</li>
+            <li>3 - Med 3</li>
+            <li>4 - Med 4</li>
+          </ul>
+
+        </div>
+      </div>
+
+
+
+      <div class="btn-wraper">
+        <button type="button" name="button">Cancel</button>
+        <button type="button" name="button">Save</button>
+      </div>
+
+    </form>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="javascript/main.js" charset="utf-8"></script>
+
+
+
+
+</body>
+</html>
